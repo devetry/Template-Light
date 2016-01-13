@@ -3,8 +3,7 @@ html {
     min-height: 100%;
 }
 body {
-    font-size: 16px;
-    background-color: #f00000;
+    font-size: 40px;
 }
 
 @media (min-width: 1200px) {
