@@ -3,7 +3,32 @@ html {
     min-height: 100%;
 }
 body {
-    font-size: 40px;
+    font-size: 16px;
+}
+
+
+h1 {
+    font-size: 35px;
+}
+
+h2 {
+    font-size: 27px;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+h4 {
+    font-size: 19;
+}
+
+h5 {
+    font-size: 17;
+}
+
+h6 {
+    font-size: 16;
 }
 
 @media (min-width: 1200px) {
@@ -50,30 +75,6 @@ footer:hover {
 }
 footer p {
     margin: 0;
-}
-
-h1 {
-    font-size: 35px;
-}
-
-h2 {
-    font-size: 27px;
-}
-
-h3 {
-    font-size: 22px;
-}
-
-h4 {
-    font-size: 19;
-}
-
-h5 {
-    font-size: 17;
-}
-
-h6 {
-    font-size: 16;
 }
 
 h2, h3, h4, h5, h6 {
