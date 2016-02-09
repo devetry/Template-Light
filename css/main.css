@@ -123,6 +123,14 @@ header.navbar {
     }
 }
 
+.language-nohighlight {
+    display: block;
+    overflow-x: auto;
+    padding: 0.5em;
+    background: #444;
+    -webkit-text-size-adjust: none;
+}
+
 .page-header {
     margin-top: 0;
 }
