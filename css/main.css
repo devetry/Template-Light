@@ -37,8 +37,13 @@ h6 {
     }
 }
 
-table, th, td, input[type=text] {
+table, th, td {
     border: 1px solid #ddd;
+}
+
+input {
+    border: 1px solid #ddd;
+    margin: 6px;
 }
 
 tbody tr:nth-child(even) {
