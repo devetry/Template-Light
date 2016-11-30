@@ -93,6 +93,8 @@ li {
 #content img {
     max-width: 100%;
     padding: 4px;
+    box-shadow: 0 0 10px 0 #bbb;
+    margin-bottom: 20px;
 }
 
 header.navbar {
