@@ -5,8 +5,10 @@ github:
     user: CouscousPHP
     repo: Template-Light
 
-title: Couscous Light
+siteTitle: LaunchCode Web Fundamentals
 subTitle: An amazing template for Couscous.
+
+cseId: 014657181352409571810:wecoswt6tpe
 
 # The left menu bar
 menu:

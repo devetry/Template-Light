@@ -102,8 +102,6 @@ header.navbar {
 }
 .navbar .navbar-brand {
     font-size: 28px;
-    height: 50px;
-    line-height: 40px;
     margin-left: 20px;
 }
 .navbar .navbar-brand small {
@@ -152,4 +150,65 @@ pre {
 }
 pre code {
     padding: 0;
+}
+
+/* Bootstrap customization */
+
+.navbar-right {
+    padding-right: 20px;
+}
+
+.navbar {
+    min-height: 60px;
+}
+
+.navbar-brand {
+    line-height: inherit;
+    height: 60px;
+}
+
+.navbar-nav > li > a {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+/* Fix Google CSE button */
+.reset-box-sizing, .reset-box-sizing *, .reset-box-sizing *:before, .reset-box-sizing *:after,  .gsc-inline-block
+{
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+input.gsc-input, .gsc-input-box, .gsc-input-box-hover, .gsc-input-box-focus, .gsc-search-button
+{
+    box-sizing: content-box;
+    line-height: normal;
+}
+
+.modal-content td,
+.modal-content table,
+.gsc-input-box {
+    border-width: 0;
+}
+
+.gsc-search-box td,
+.gsc-search-box table,
+.gsc-input-box {
+    padding: 0;
+}
+
+.gsc-table-result, .gsc-table-result, .gsc-thumbnail-inside, .gsc-url-top {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.gsc-search-box input {
+    margin: 2px 0 0 2px;
+}
+
+.gsc-input td,
+.gsc-input table {
+    padding: 4px 8px;
+    padding-bottom: 0;
+    border-width: 0;
 }
