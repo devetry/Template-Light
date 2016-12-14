@@ -69,3 +69,7 @@ template:
 ```
 
 To run and test your site or template locally, it's recommended that you use the Phar installation method from the [Couscous documentation](http://couscous.io/docs/getting-started.html).
+
+### Note on deploying static changes
+
+When making updates to static files (CSS, JS, etc.) you may need to delete the file(s) from the project that is using the template and rebuild, in order to force the new file to be deployed.
