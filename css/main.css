@@ -212,3 +212,8 @@ input.gsc-input, .gsc-input-box, .gsc-input-box-hover, .gsc-input-box-focus, .gs
     padding-bottom: 0;
     border-width: 0;
 }
+
+/* IMPORTANT: Hide ads */
+.gsc-adBlock {
+    display: none;
+}
