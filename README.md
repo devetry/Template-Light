@@ -1,9 +1,4 @@
----
-currentMenu: home
----
 # Couscous Light template
-
-![](screenshot.png)
 
 ## Usage
 
@@ -11,7 +6,7 @@ To use the template, set it up in your `couscous.yml` configuration file:
 
 ```yaml
 template:
-    url: https://github.com/CouscousPHP/Template-Light
+    url: https://github.com/LaunchCodeEducation/Template-Light
 ```
 
 ## Configuration
@@ -20,15 +15,15 @@ Here are all the variables you can set in your `couscous.yml`:
 
 ```yaml
 # Base URL of the published website
-baseUrl: http://username.github.io/project
+baseUrl: http://education.launchcode.org/module
 
-# Used to link to the GitHub project
-github:
-    user: myself
-    repo: my-project
+siteTitle: My project
 
-title: My project
-subTitle: This is a great project.
+# Google Custom Search Engine ID
+cseId: 222222222222222222222:aaaaaaaaaaa
+
+# Google Analytics ID
+gaId: UA-55555555-5
 
 # The left menu bar
 menu:
@@ -63,3 +58,14 @@ currentMenu: home
 
 # Welcome
 ```
+
+## Local development
+
+For local development, clone the template and use the following template config:
+
+```yaml
+template:
+    directory: ../Template-Light
+```
+
+To run and test your site or template locally, it's recommended that you use the Phar installation method from the [Couscous documentation](http://couscous.io/docs/getting-started.html).
