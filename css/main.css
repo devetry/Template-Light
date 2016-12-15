@@ -232,6 +232,42 @@ input.gsc-input, .gsc-input-box, .gsc-input-box-hover, .gsc-input-box-focus, .gs
     margin-left: 12px;
 }
 
-.lc-button {
+/* Home page */
+#home-landing {
+    background-size: cover;
+    min-height: 450px;
+}
 
+.landing-bold {
+    min-height: 320px;
+    background: #5c93ce;
+    letter-spacing: normal;
+    padding: 15% 0 0;
+    text-align: center;
+    height: auto;
+    margin: 0;
+}
+.landing-bold h1 {
+    color: #FFFFFF;
+    margin-bottom: 13px;
+    font-family: "Montserrat";
+    font-size: 4.2em;
+    line-height: 1;
+    font-weight: 700;
+}
+.landing-bold p {
+	color: #FFFFFF;
+	line-height: 1.4;
+	font-size: 1.6em;
+	font-weight: 200;
+}
+
+/* Center nav on home page */
+.main .nav-pills {
+    text-align: center;
+}
+
+.main .nav-pills > li {
+    float: none;
+    display: inline-block;
 }

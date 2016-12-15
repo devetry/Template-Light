@@ -17,6 +17,10 @@ Here are all the variables you can set in your `couscous.yml`:
 # Base URL of the published website
 baseUrl: http://education.launchcode.org/module
 
+# Only used on home page
+metaTitle: LC101
+
+# Used on header of most pages
 siteTitle: My project
 
 # Google Custom Search Engine ID
