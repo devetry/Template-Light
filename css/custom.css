@@ -19,7 +19,7 @@ h2 {
     font-weight: normal;
 }
 
-h4, .nav-pills li, .lc-button {
+h4, .nav-pills li {
     text-transform: uppercase;
     font-size: 15px;
 }
