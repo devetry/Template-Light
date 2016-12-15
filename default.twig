@@ -7,16 +7,18 @@
         <title>{{ title ~ ' :: ' ~ siteTitle }}</title>
 
         <link rel="stylesheet" href="{{ baseUrl }}/css/bootstrap.min.css">
-        <link rel="stylesheet" href="{{ baseUrl }}/css/font-awesome.min.css">
         <link rel="stylesheet" href="{{ baseUrl }}/css/highlight.dark.css">
         <link rel="stylesheet" href="{{ baseUrl }}/css/main.css">
+        <link rel="stylesheet" href="{{ baseUrl }}/css/custom.css">
     </head>
     <body>
 
         <header class="navbar navbar-default navbar-fixed-top">
 
-            <a class="navbar-brand" href="{{ baseUrl }}/">
-                {{ siteTitle }}
+            <a class="navbar-brand dabomb" href="{{ baseUrl }}/"></a>
+
+            <a class="navbar-brand site-title" href="{{ baseUrl }}/">
+                <h1>{{ siteTitle }}</h1>
             </a>
 
             <ul class="nav navbar-nav navbar-right">
@@ -70,7 +72,7 @@
 
                         <ul class="nav nav-pills nav-stacked">
                             {% for itemId, item in menu.items %}
-                                <li class="{{ itemId == currentMenu ? 'active' }}">
+                                <li class="{{ itemId == currentMenu ? 'active' }} lc-button">
                                     <a href="{{ item.absoluteUrl|default(baseUrl ~ '/' ~ item.relativeUrl) }}">
                                         {{ item.text|raw }}
                                     </a>

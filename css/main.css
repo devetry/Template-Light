@@ -217,3 +217,21 @@ input.gsc-input, .gsc-input-box, .gsc-input-box-hover, .gsc-input-box-focus, .gs
 .gsc-adBlock {
     display: none !important;
 }
+
+/* LC Branding + UI Guide Rules */
+.dabomb {
+	height: 53px;
+	width: 170px;
+	background-image: url(/images/lc-logo.svg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: 0 3px;
+}
+
+.navbar .site-title {
+    margin-left: 12px;
+}
+
+.lc-button {
+
+}
