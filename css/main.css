@@ -222,7 +222,7 @@ input.gsc-input, .gsc-input-box, .gsc-input-box-hover, .gsc-input-box-focus, .gs
 .dabomb {
 	height: 53px;
 	width: 170px;
-	background-image: url(/images/lc-logo.svg);
+	background-image: url(../images/lc-logo.svg);
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: 0 3px;
