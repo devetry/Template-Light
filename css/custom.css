@@ -7,6 +7,10 @@ body {
   color: rgb(52, 74, 95);
 }
 
+h1, h2, h3, h4, h5 {
+    color: rgb(68, 68, 68);
+}
+
 h1, h4, .nav-pills li, .lc-button {
     font-family: "Montserrat", serif;
 }
