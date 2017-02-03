@@ -2,10 +2,9 @@ html {
     position: relative;
     min-height: 100%;
 }
+
 body {
-    font-size: 16px;
     line-height: 1.9em;
-    color: #777;
 }
 
 #content p {
