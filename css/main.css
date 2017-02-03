@@ -4,33 +4,12 @@ html {
 }
 body {
     font-size: 16px;
-    line-height: 1.7;
+    line-height: 1.9em;
     color: #777;
 }
 
-
-h1 {
-    font-size: 35px;
-}
-
-h2 {
-    font-size: 27px;
-}
-
-h3 {
-    font-size: 22px;
-}
-
-h4 {
-    font-size: 19px;
-}
-
-h5 {
-    font-size: 17px;
-}
-
-h6 {
-    font-size: 16px;
+#content p {
+    margin: 1.4em 0;
 }
 
 @media (min-width: 1200px) {
@@ -299,14 +278,8 @@ code {
     background-color: rgb(232, 232, 232);
 }
 
-p {
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
-    margin: 0;
-}
-
 #content {
-    padding: 2em 3em;
+    padding: 2em 6em;
 }
 
 .nav-pills li, .lc-button {
@@ -333,14 +306,13 @@ h1 {
 }
 
 .navbar-brand {
-
-
     padding: 0;
     margin: 0;
 }
 
 .navbar-brand h1 {
-    font-family: "Nexa Light";
+    font-family: "Adagio";
+    color: #789;
     margin: 0;
     font-size: 18px;
     line-height: 72px;
