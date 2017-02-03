@@ -160,6 +160,11 @@ pre code {
 	padding-bottom: 20px;
 }
 
+a {
+    color: #5c93ce;
+    font-family: "Nexa";
+}
+
 /* Fix Google CSE button */
 .reset-box-sizing, .reset-box-sizing *, .reset-box-sizing *:before, .reset-box-sizing *:after,  .gsc-inline-block
 {
@@ -274,8 +279,8 @@ blockquote p {
 }
 
 code {
-    color: rgb(18, 74, 135);
-    background-color: rgb(232, 232, 232);
+    color: rgb(52, 74, 95);
+    background-color: rgb(240, 240, 240);
 }
 
 #content {
