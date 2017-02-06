@@ -67,11 +67,6 @@ h2, h3, h4, h5, h6 {
     color: rgb(52, 74, 95);
 }
 
-li {
-    padding-top: 0.1em;
-    padding-bottom: 0.1em;
-}
-
 #content img {
     max-width: 100%;
     box-shadow: 0 0 5px 0 #ddd;
