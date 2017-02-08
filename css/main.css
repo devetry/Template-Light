@@ -138,7 +138,10 @@ aside::before {
     margin-top: 2em;
 }
 
-
+#bonus-missions::before,
+#bonus-mission::before {
+    content: '🚀 ';
+}
 
 @media (min-width: 768px) {
     #sidebar {
