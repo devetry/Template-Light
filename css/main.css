@@ -429,3 +429,19 @@ input.gsc-input, .gsc-input-box, .gsc-input-box-hover, .gsc-input-box-focus, .gs
 #modalSearch a:hover, #modalSearch a:active {
     color: #23527c;
 }
+
+/*
+    Fix jump link positioning relative to navbar
+    Source: http://nicolasgallagher.com/jump-links-and-viewport-positioning/demo/#method-D
+*/
+main h1,
+main h2,
+main h3,
+main h4,
+main h5 {
+    border-top: 80px solid transparent;
+    margin-top: -80px;
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+}
