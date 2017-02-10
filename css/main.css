@@ -271,6 +271,8 @@ input.gsc-input, .gsc-input-box, .gsc-input-box-hover, .gsc-input-box-focus, .gs
 
 .navbar .site-title {
     margin-left: 12px;
+	padding-top: 25px;
+	padding-bottom: 15px;
 }
 
 /* Home page */
@@ -368,5 +370,4 @@ h1 {
     color: #789;
     margin: 0;
     font-size: 18px;
-    line-height: 72px;
 }
