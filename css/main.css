@@ -213,52 +213,6 @@ a {
     font-family: "Nexa";
 }
 
-/* Fix Google CSE button */
-.reset-box-sizing, .reset-box-sizing *, .reset-box-sizing *:before, .reset-box-sizing *:after,  .gsc-inline-block
-{
-    -webkit-box-sizing: content-box;
-    -moz-box-sizing: content-box;
-    box-sizing: content-box;
-}
-input.gsc-input, .gsc-input-box, .gsc-input-box-hover, .gsc-input-box-focus, .gsc-search-button
-{
-    box-sizing: content-box;
-    line-height: normal;
-}
-
-.modal-content td,
-.modal-content table,
-.gsc-input-box {
-    border-width: 0;
-}
-
-.gsc-search-box td,
-.gsc-search-box table,
-.gsc-input-box {
-    padding: 0;
-}
-
-.gsc-table-result, .gsc-table-result, .gsc-thumbnail-inside, .gsc-url-top {
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-}
-
-.gsc-search-box input {
-    margin: 2px 0 0 2px;
-}
-
-.gsc-input td,
-.gsc-input table {
-    padding: 4px 8px;
-    padding-bottom: 0;
-    border-width: 0;
-}
-
-/* IMPORTANT: Hide ads */
-.gsc-adBlock {
-    display: none !important;
-}
-
 /* LC Branding + UI Guide Rules */
 .dabomb {
 	height: 53px;
@@ -328,11 +282,6 @@ blockquote p {
     padding-top: 0;
 }
 
-code {
-    color: rgb(52, 74, 95);
-    background-color: rgb(240, 240, 240);
-}
-
 #content {
     padding: 2em 3%;
 }
@@ -370,4 +319,113 @@ h1 {
     color: #789;
     margin: 0;
     font-size: 18px;
+}
+
+/*
+Google Custom Search Modal
+
+Partially based off of https://www.labnol.org/internet/google-custom-search-css/28360/
+*/
+
+/* Fix Google CSE button */
+.reset-box-sizing, .reset-box-sizing *, .reset-box-sizing *:before, .reset-box-sizing *:after,  .gsc-inline-block
+{
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+input.gsc-input, .gsc-input-box, .gsc-input-box-hover, .gsc-input-box-focus, .gsc-search-button
+{
+    box-sizing: content-box;
+    line-height: normal;
+}
+
+.modal-content td,
+.modal-content table,
+.gsc-input-box {
+    border-width: 0;
+}
+
+.gsc-search-box td,
+.gsc-search-box table,
+.gsc-input-box {
+    padding: 0;
+}
+
+.gsc-table-result, .gsc-table-result, .gsc-thumbnail-inside, .gsc-url-top {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.gsc-search-box input {
+    margin: 2px 0 0 2px;
+}
+
+.gsc-input td,
+.gsc-input table {
+    padding: 4px 8px;
+    padding-bottom: 0;
+    border-width: 0;
+}
+
+/* IMPORTANT: Hide ads */
+.gsc-adBlock {
+    display: none !important;
+}
+
+#modalSearch {
+    line-height: normal;
+}
+
+#modalSearch .gs-webResult .gs-snippet,
+#modalSearch .gs-imageResult .gs-snippet,
+#modalSearch .gs-fileFormatType {
+    color: rgb(52, 74, 95);
+    font-size: 15px;
+}
+
+/* Use a different font family for search results */
+#modalSearch .gs-snippet {
+    font-family: "Adagio";
+}
+
+/* Add a border between individual search results */
+#modalSearch .gs-webResult {
+    border: 1px solid #eee;
+    padding: 1em;
+}
+
+/* Hide the Google branding in search results */
+#modalSearch .gcsc-branding {
+    display: none;
+}
+
+/* Hide the thumbnail images in search results */
+#modalSearch .gsc-thumbnail {
+    display: none;
+}
+
+/* Do no display the URL of web pages in search results */
+#modalSearch .gsc-url-top, #modalSearch .gsc-url-bottom {
+    display: none;
+}
+
+/* Highlight the pagination buttons at the bottom of search results */
+#modalSearch .gsc-cursor-page {
+    font-size: 1.5em;
+    padding: 4px 8px;
+    border: 2px solid #ccc;
+}
+
+#modalSearch a {
+    color: #5c93ce;
+    font-family: "Nexa";
+}
+
+#modalSearch a.gs-title b {
+    color: inherit;
+}
+
+#modalSearch a:hover, #modalSearch a:active {
+    color: #23527c;
 }
