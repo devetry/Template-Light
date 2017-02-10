@@ -125,6 +125,10 @@ aside::before {
     content: "🎻 Pro Tip";
 }
 
+.aside-example::before {
+    content: "🔦 Example";
+}
+
 .aside-custom::before {
     content: attr(label);
 }
