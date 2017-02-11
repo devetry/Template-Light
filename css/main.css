@@ -126,7 +126,7 @@ aside::before {
 }
 
 .aside-example::before {
-    content: "🔦 Example";
+    content: "🔎 Example";
 }
 
 .aside-custom::before {
