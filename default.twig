@@ -17,19 +17,6 @@
 
             <ul class="nav navbar-nav">
 
-
-
-                <li><a class="navbar-brand dabomb" href="{{ baseUrl }}/"></a></li>
-                <li>
-                    <a class="navbar-brand site-title" href="{{ baseUrl }}/">
-                        <h1>{{ siteTitle }}</h1>
-                    </a>
-                </li>
-            </ul>
-
-
-            <ul class="nav navbar-nav navbar-right">
-
                 {% if menu is defined %}
 
                     <li class="dropdown">
@@ -51,7 +38,16 @@
 
                 {% endif %}
 
+                <li>
+                    <a class="navbar-brand site-title" href="{{ baseUrl }}/">
+                        <h1>{{ siteTitle }}</h1>
+                    </a>
+                </li>
             </ul>
+
+            <!--ul class="nav navbar-nav navbar-right">
+                <li><a class="navbar-brand dabomb" href="{{ baseUrl }}/"></a></li>
+            </ul-->
 
         </header>
 

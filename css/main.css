@@ -220,8 +220,8 @@ a {
 /* LC Branding + UI Guide Rules */
 .dabomb {
 	height: 53px;
-	width: 170px;
-	background-image: url(../images/lc-logo.svg);
+	width: 41px;
+	background-image: url(../images/lc-logo-rocket.png);
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: 0 3px;
@@ -229,8 +229,8 @@ a {
 
 .navbar .site-title {
     margin-left: 12px;
-	padding-top: 25px;
-	padding-bottom: 15px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 /* Home page */
