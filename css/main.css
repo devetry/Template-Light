@@ -323,6 +323,7 @@ h1 {
     color: #789;
     margin: 0;
     font-size: 18px;
+    line-height: 1.9em;
 }
 
 /*
@@ -448,4 +449,5 @@ main h5 {
     -webkit-background-clip: padding-box;
     -moz-background-clip: padding;
     background-clip: padding-box;
+>>>>>>> master
 }
