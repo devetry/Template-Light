@@ -118,7 +118,7 @@ aside::before {
 }
 
 .aside-hint::before {
-    content: "🤔 Hint";
+    content: "🔎 Hint";
 }
 
 .aside-pro-tip::before {
@@ -126,7 +126,11 @@ aside::before {
 }
 
 .aside-example::before {
-    content: "🔎 Example";
+    content: "💡 Example";
+}
+
+.aside-question::before {
+    content: "🤔 Question";
 }
 
 .aside-custom::before {
