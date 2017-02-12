@@ -213,8 +213,8 @@ a {
 /* LC Branding + UI Guide Rules */
 .dabomb {
 	height: 53px;
-	width: 41px;
-	background-image: url(../images/lc-logo-rocket.png);
+	width: 170px;
+	background-image: url(../images/lc-logo.svg);
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: 0 3px;
