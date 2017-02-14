@@ -100,3 +100,7 @@
 .hljs.language-javascript.hljs-label::before {
     content: 'Javascript';
 }
+
+.hljs.language-csharp.hljs-label::before {
+    content: 'C#';
+}
