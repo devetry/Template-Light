@@ -97,7 +97,7 @@
     content: 'Java';
 }
 
-.hljs.language-javascript.hljs-label::before {
+.hljs.language-js.hljs-label::before {
     content: 'Javascript';
 }
 
