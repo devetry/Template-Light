@@ -37,7 +37,7 @@
                     </li>
 
                 {% endif %}
-                
+
             </ul>
 
             <!--ul class="nav navbar-nav navbar-right">
@@ -86,8 +86,21 @@
                         <p>{{ siteTitle }}</p>
                     </div>
                 </div>
+
             </div>
         </section>
+
+        <main class="{{ menu ? 'container-fluid' : 'container' }}">
+            <div class="row">
+
+                <section id="content" class="col-sm-offset-1 col-sm-10 col-md-offset-2 col-md-8">
+                    {% block content %}
+                    {{ content|raw }}
+                    {% endblock %}
+                </section>
+
+            </div>
+        </main>
 
 
 
